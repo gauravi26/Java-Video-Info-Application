@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.swing.panel.Panel">
+  <grid id="27dc6" binding="Extract" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="525" height="363"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="abfd0" class="javax.swing.JLabel" binding="Header">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="Extract Video Duration "/>
+        </properties>
+      </component>
+      <component id="f5de1" class="javax.swing.JTextField" binding="path">
+        <constraints>
+          <grid row="1" column="1" row-span="3" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a06e9" class="javax.swing.JButton" binding="info">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="info"/>
+        </properties>
+      </component>
+      <component id="f48e6" class="javax.swing.JButton" binding="browseAgainButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Browse Again"/>
+        </properties>
+      </component>
+      <component id="99177" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="90d08" class="javax.swing.JButton" binding="browse">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Browse"/>
+        </properties>
+      </component>
+      <component id="1e676" class="javax.swing.JLabel" binding="SubHeading">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Give Folder Path to Create CSV"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
